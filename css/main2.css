@@ -1,0 +1,165 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /*font-family: Ubuntu;*/
+  /*設定一個元素樣式為 box-sizing: border-box;
+  這個元素的內距和邊框將不會增加元素本身的寬度*/
+  font-family: 'Josefin Sans';
+}
+
+body{
+  display: block;
+  background-color: #edf2c5;
+}
+
+main{
+  width:1260px;
+  /*background-color:red;*/
+  margin: 0 auto;
+  padding: 0 150px;
+}
+
+header{
+  margin-top: 53px;
+}
+
+#title{
+  /*display: inline-block;*/
+  width: 271px;
+  height: 42px;
+  font-weight: bold;
+  font-size: 42px;
+  color: #778a50;
+  margin-bottom: 8px;
+}
+#btn_header{
+  /*display: inline-block;*/
+  margin-left: 438px;
+  margin-bottom: 17px;
+}
+#btn_header_img{
+  border-right: 1px #778250 solid;
+}
+#btn_header_img a img{
+  margin-right: 10px;
+}  
+
+#btn_header_text a{
+  font-size: 14px;
+  text-decoration: none;
+  height: 25px;
+  margin-left: 10px;
+  padding: 5px;
+  border: 1px #778a50 solid;
+  border-radius: 3px;
+  color:#778a50;
+  /*display: inline-block;*/
+}
+
+:link ,:visited {
+  font-weight: bold;
+  color: #edf2c5;
+  text-decoration: none;
+}
+
+.inline_block{
+  display: inline-block;
+}
+
+.title_block{
+  background-color: #778a50;
+  border-radius: 3px;
+  font-family: Arial Black;
+  font-size: 16px;
+  font-weight: bold;
+  color: #edf2c5;
+}
+#login{
+  width: 60px;
+} 
+#join{
+  width: 50px;
+}
+nav{
+  width: 940px;
+  height: 44px;
+}
+
+nav a{
+  font-family: Arial Black;
+    font-size: 16px;
+    font-weight: bold;
+    color: #edf2c5;
+    padding: 15px 16px;
+    display: inline-block;
+    text-decoration:none;
+}
+
+#block_img_center{
+  margin: 20px 0px 30px 0px;
+}
+
+#vegetables{
+  width: 445px;
+  float: left;
+}
+
+#vegetables_title{
+  padding: 15px 0 15px 30px;
+  margin-bottom: 15px;
+}
+
+#vegetables_img img{
+  height: 140px;
+  width: 140px;
+  float: left;
+}
+
+#vegetables_img_2{
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+#contact{
+  float: right;
+  width: 445px;
+  height: 150px;
+}
+
+#contact_title{
+  height: 45px;
+  padding: 15px 0 15px 30px;
+  margin-bottom: 15px;
+}
+
+#contact_p{
+  height: 140px;
+  background-color: #F7FBDA;
+  
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+#contact_bar_1{
+  padding: 16px 0;
+  margin: 0 16px;
+  line-height: 1.33;
+  border-bottom: 1px solid #7D7D7D;
+}
+
+#contact_bar_2{
+  line-height: 1.83;
+  padding: 16px;
+}
+
+footer{
+  background-color: #778a50;
+  width:100%;
+    height:60px;
+    font-size: 12px;
+    color: #edf2c5;
+    text-align: center;
+    padding: 24px 479px 25px 479px;
+    margin-top: 35px;
+}

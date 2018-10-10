@@ -1,20 +1,24 @@
-html{
-    width: 1264px;
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 body{
+    width: 1264px;
     font-family: Arial,BoldMT ,san-serif;
-    margin:0 auto;
-    width: 940px;
     background-color: #edf2c5;
     font-size: 14pt;
     color: #ffffff;
     display: block;
   }
+main{
+    width:940px;
+    margin: 0 auto;
+    padding: 0 150px;
+}
 header{
-    /* margin-top: 53px; */
+    width:940px;
     margin-top: 53px;
-    margin-bottom: 8px;
-    display: inline-block;
 }
 #title{
     display: inline-block;
@@ -23,8 +27,9 @@ header{
     font-weight: bold;
     font-size: 42px;
     color: #778a50;
+    margin-bottom: 8px;
 }
-.btn_header{
+#btn_header{
     display: inline-block;
     margin-left: 438px;
 }
@@ -135,11 +140,12 @@ nav{
     padding: 16px 0;
 }
 
-footer{
-    margin-top: 35px;
+/*footer{
+    width: 1264px;
     height:60px;
     font-size: 12px;
     color: #edf2c5;
-    padding-top: 24px;
     text-align: center;
-}
+    padding: 24px 479px 25px 479px;
+    
+}*/
